@@ -17,7 +17,7 @@ window.onload = function(){
 
 
 
-	var geometry = new THREE.PlaneGeometry( 2, 1.2, 16);
+	var geometry = new THREE.PlaneGeometry( 3, 1.8, 16);
 	//var Texture = new THREE.TextureLoader().load('https://raw.githubusercontent.com/yvital/Earth/master/img/earth.jpg');
 	var Texture = new THREE.TextureLoader().load('/img/real-madrid.jpg');
 	var material = new THREE.MeshBasicMaterial( {map: Texture, side: THREE.DoubleSide, transparent: true, opacity: 0.4 } );
