@@ -39,7 +39,6 @@ window.onload = function(){
 	requestAnimationFrame( animate );
 
 		group.rotation.y += 0.04;
-
 		renderer.render( scene, camera );
 	};
 
